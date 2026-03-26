@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta property="og:image" content="Screenshot 2026-03-21 120415.png">
-    <meta property="og:title" content="Món quà nhỏ dành cho em!">
+    <meta property="og:title" content="Món quà nhỏ anh dành cho em!">
     <meta property="og:description" content="Nhấn vào để xem bí mật anh giấu trong này nhé...">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -123,12 +123,12 @@
             requestAnimationFrame(animate);
         }
 
-        // Tự động bắn pháo hoa 
+        // Tự động bắn pháo hoa cho đến khi thoát  
         let autoFire = setInterval(() => {
             createFirework(Math.random() * canvas.width, Math.random() * canvas.height * 0.5);
         }, 800);
 
-        // Dừng tự động sau 30 giây để người dùng tự chơi
+        // người dùng tự chơi
         setTimeout(() => clearInterval(autoFire), 10000);
 
         // Hiệu ứng khi chạm/click
